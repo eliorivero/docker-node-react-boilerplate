@@ -1,0 +1,14 @@
+{
+	"editor.detectIndentation": false,
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false,
+	"deno.enable": false,
+	"eslint.validate": [
+		"typescript",
+		"typescriptreact"
+	],
+	"files.exclude": {
+		".vscode": true,
+		"**/package-lock.json": true
+	}
+}

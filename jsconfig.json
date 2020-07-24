@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+		"target": "es5",
+		"jsx": "react",
+		"baseUrl": "./client",
+		"moduleResolution": "node",
+		"paths": {
+			"assets/*": ["./app/assets/*"],
+			"components/*": ["./app/components/*"],
+			"hooks/*": ["./app/hooks/*"],
+			"utils/*": ["./app/utils/*"],
+			"views/*": ["./app/views/*"],
+		},
+	},
+	"exclude": ["node_modules", "client/public"],
+}
