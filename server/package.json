@@ -1,0 +1,18 @@
+{
+  "name": "docker-node-server",
+  "version": "0.0.7",
+  "description": "Server for React Node Container",
+  "author": "StartFunction",
+  "license": "GPL-3.0-or-later",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "DEBUG=express nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

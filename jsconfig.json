@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+		"target": "es2020",
+		"jsx": "react",
+		"baseUrl": "./",
+		"moduleResolution": "node",
+		"paths": {
+			"assets/*": ["./client/app/assets/*"],
+			"components/*": ["./client/app/components/*"],
+			"hooks/*": ["./client/app/hooks/*"],
+			"utils/*": ["./client/app/utils/*"],
+			"views/*": ["./client/app/views/*"],
+		},
+	},
+  "exclude": ["node_modules", "client/node_modules", "server/node_modules", "client/public"]
+}
